@@ -6,10 +6,13 @@ https://gitpod.io/#https://github.com/gustavodelia-3017201693/rev2804gitpod
 
 Comandos GitPod
 
-git branch                        // Verificar qual branch se encontra 
-git branch <nome da versão>       // Criar uma nova branch
-git checkout <nome da versão>     // Mudar de brench  
-git add <nome do programa>        // Adicionar um novo arquivo que já foi criado  
-git status                        // Verificar o Status do GIt  
-git commit -m "Comentário"        // Comitar com comentário
-git push origin <nome da versão>  // Inserir a versão 
+git branch                           // Verificar qual branch se encontra 
+git branch <nome da versão>          // Criar uma nova branch
+git checkout <nome da versão>        // Mudar de brench  
+git add <nome do programa>           // Adicionar um novo arquivo que já foi criado  
+git status                           // Verificar o Status do GIt  
+git commit -m "Comentário"           // Comitar com comentário
+git push origin <nome da versão>     // Inserir a versão 
+git merge <nome da versão>           // Faz o merge da versão atual do checkout para a versão digitada
+git log                              // Visualizar o Histórico De Alterações
+git revert <numero do commit do log> // Reverte algum carimbo
